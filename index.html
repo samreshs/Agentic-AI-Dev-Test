@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DewDrop — Flavoured Mineral Water</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">DewDrop</a>
+            <nav class="nav">
+                <a href="#flavours">Flavours</a>
+                <a href="#about">About</a>
+                <a href="#newsletter">Newsletter</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero-title">Pure refreshment,<br>naturally flavoured.</h1>
+                <p class="hero-subtitle">Crisp mineral water infused with real fruit essences. No sugar, no artificials — just nature's best.</p>
+                <a href="#flavours" class="btn btn-primary">Explore Flavours</a>
+            </div>
+            <div class="hero-visual">
+                <div class="drop drop-1"></div>
+                <div class="drop drop-2"></div>
+                <div class="drop drop-3"></div>
+            </div>
+        </section>
+
+        <section id="sales" class="sales" aria-labelledby="sales-title">
+            <div class="container">
+                <div class="sales-offer">
+                    <div class="sales-copy">
+                        <p class="sales-label">The perfect refreshment pack</p>
+                        <h2 id="sales-title">5 bottles for $10</h2>
+                        <p>Stock up on naturally flavoured mineral water for just $2 a bottle.</p>
+                    </div>
+                    <div class="sales-price" aria-label="10 dollars for a pack of 5 bottles">
+                        <strong>$10</strong>
+                        <span>5-bottle pack</span>
+                    </div>
+                    <a href="#flavours" class="btn btn-primary">Explore Flavours</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="flavours" class="flavours">
+            <div class="container">
+                <h2 class="section-title">Our Flavours</h2>
+                <div class="flavour-grid">
+                    <div class="flavour-card">
+                        <div class="flavour-icon">🍋</div>
+                        <h3>Lemon Zest</h3>
+                        <p>Bright and zesty, like a sunlit orchard.</p>
+                    </div>
+                    <div class="flavour-card">
+                        <div class="flavour-icon">🫐</div>
+                        <h3>Wild Berry</h3>
+                        <p>A burst of mixed berries, subtly sweet.</p>
+                    </div>
+                    <div class="flavour-card">
+                        <div class="flavour-icon">🌿</div>
+                        <h3>Cucumber Mint</h3>
+                        <p>Cool, crisp, and utterly refreshing.</p>
+                    </div>
+                    <div class="flavour-card">
+                        <div class="flavour-icon">🍊</div>
+                        <h3>Blood Orange</h3>
+                        <p>Deep citrus notes with a hint of sweetness.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">Why DewDrop?</h2>
+                <div class="features">
+                    <div class="feature">
+                        <div class="feature-icon">💧</div>
+                        <h3>Natural Spring Water</h3>
+                        <p>Sourced from protected alpine springs, naturally filtered and mineral-rich.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">🍃</div>
+                        <h3>Real Fruit Essence</h3>
+                        <p>We use only cold-pressed fruit extracts — never artificial flavours.</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">♻️</div>
+                        <h3>Eco-Friendly</h3>
+                        <p>100% recyclable glass bottles and carbon-neutral shipping.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="newsletter" class="cta">
+            <div class="container">
+                <h2 class="section-title">Stay refreshed</h2>
+                <p>Join our newsletter for new flavour drops and exclusive offers.</p>
+                <form class="newsletter-form" id="newsletter-form">
+                    <input type="email" placeholder="Your email" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+                <p class="form-message" id="form-message"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 DewDrop. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="/client.js"></script>
+</body>
+</html>
